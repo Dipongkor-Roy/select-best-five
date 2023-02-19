@@ -2,7 +2,7 @@ function disable(x){
     x.style.cssText = `
     pointer-events: none;
     cursor: default;
-  `
+  `;
   x.style.backgroundColor="lightblue";
   x.style.border='none'
 }
